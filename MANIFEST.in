@@ -20,5 +20,6 @@ exclude src/rust/target
 recursive-exclude src/rust/target *
 
 recursive-exclude .github *
+prune seal-openssl
 
 exclude release.py .readthedocs.yml ci-constraints-requirements.txt mypy.ini
